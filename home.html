@@ -1,0 +1,12 @@
+{%extends "index.html" %}
+{% block content %}
+    <h2>Find new music with one click!</h2>
+        <form action ="/recommend" method="POST">
+            <div class="form-group">
+                <input type="text" class="form-control" name="song" placeholder="Enter a song">
+              </div>
+            <input type="submit" class="btn btn-primary btn-lg" value="Get Recommendations">
+        </form>
+    
+            
+{% endblock %}
